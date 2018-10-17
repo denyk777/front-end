@@ -1,0 +1,130 @@
+.container {
+    display: table;
+    padding-top: 69px;
+    padding-left: 69px;
+}
+.header {
+    display: table;
+}
+
+.headerCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#minimo {
+    width: 119px;
+    height: 25px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Inconsolata";
+    text-align: left;
+}
+
+#lifestyle {
+    padding-left: 370px;
+    width: 73px;
+    height: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#photodiary {
+    padding-left: 118px;
+    width: 92px;
+    height: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#music {
+    padding-left: 100px;
+    width: 45px;
+    height: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+    text-align: center;
+}
+#travel {
+    padding-left: 93px;
+    width: 54px;
+    height: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+    text-align: center;
+}
+
+
+#image1 {
+    width: 1062px;
+    height: 509px;
+    background-color: #f1f1f1;
+}
+
+#sidebarContainer {
+    width: 284px;
+}
+
+#sidebarImage {
+    width: 272px;
+    height: 177px;
+    background-color: #b4ac9e;
+}
+
+#sidebarHeader {
+    width: 278px;
+    height: 18px;
+    font-size: 24px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+#sidebarContainer {
+    width: 278px;
+    height: 58px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+#infoblocConteiner {
+    padding-top: 96px;
+    padding-left: 80px;
+    width: 700px;
+    height: 150px;
+}
+
+#infoblocHeader1 {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial";
+}
+
+#infoblocHeader2 {
+    padding-top: 28px;
+    font-size: 30px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+#infoblocContent {
+    padding-top: 35px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+}
