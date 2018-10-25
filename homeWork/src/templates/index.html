@@ -5,62 +5,96 @@
         <title>MINIMO</title>
         <link rel="stylesheet" href="../styles/style.css">
     </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <div id="minimo" class="headerCell">
-                    MINIMO
-                </div>
-                <div id="lifestyle" class="headerCell">
-                    LIFESTYLE
-                </div>
-                <div id="photodiary" class="headerCell">
-                    PHOTODIARY
-                </div>
-                <div id="music" class="headerCell">
-                    MUSIC
-                </div>
-                <div id="travel" class="headerCell">
-                    TRAVEL
-                </div>
-            </div>
-            <div id="singlePost">
-                <coverImage id="image1" class="header">
-                    <img src="../images/imgTop.png">
-                </coverImage>
-                <infoblock class="headerCell" id="infoblocConteiner">
-                    <div id="infoblocHeader1">PHOTODIARY</div>
-                    <div id="infoblocHeader2">The perfect weekend getaway</div>
-                    <div id="infoblocContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt
-                    in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
-                    natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-                    ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                    sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
-                        et dolore magnam aliquam quaerat voluptatem.
-                    </div>
-                </infoblock>
-                <sidebar class="headerCell" id="sidebarContainer">
-                    <aboutTheAutor class="header">
-                        <bio>
-                            <img src="../images/imgRight.png" id="sidebarImage">
-                        </bio>
-                        <aboutMe class="header" id="sidebarHeader">
-                            About me
-                        </aboutMe>
-                        <aboutMeText id="sidebarContent">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            incididunt ut labore et dolore magna aliqua
-                        </aboutMeText>
-                    </aboutTheAutor>
+        <img src="../images/logo.png" class="headerBox">
+        <ul class="headerBox">
+            <li id="lifestyle" class="headerItem">
+                LIFESTYLE
+            </li>
+            <li id="photodiary" class="headerItem">
+                PHOTODIARY
+            </li>
+            <li id="music"  class="headerItem">
+                MUSIC
+            </li>
+            <li  class="headerItem">
+                TRAVEL
+            </li>
+        </ul>
+        <img src="../images/imgTop.png" class="mainImage">
 
-                </sidebar>
+        <div class="contentBox">
+            <p class="contentSubheader">PHOTODIARY</p>
+            <h1 class="contentHeader">The perfect weekend getaway</h1>
+            <p class="contentText">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+                et dolore magnam aliquam quaerat voluptatem.
+            </p>
+            <img src="../images/imgBottom.png" class="bottomImage">
+            <p class="contentText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+                et dolore magnam aliquam quaerat voluptatem.
+            </p>
+        </div>
+        <div class="contentBox" id="sideBar">
+            <img src="../images/imgRight.png">
+            <h1 class="sidebarHeader">
+                About me
+            </h1>
+            <p id="sidebarContainer">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                incididunt ut labore et dolore magna aliqua
+            </p>
+            <div class="contentSubheader" id="headerSideBar">
+                TOP POSTS
             </div>
+            <ul class="postHeader">
+                <li>
+                    <div class="postHeader">
+                        A day exploring the Alps
+                    </div>
+                    <div class="postComments" >
+                        24 COMMENTS
+                    </div>
+                </li>
+                <li>
+                    <div class="postHeader">
+                        American dream
+                    </div>
+                    <div class="postComments">
+                        19 COMMENTS
+                    </div>
+                </li>
+                <li>
+                    <div class="postHeader">
+                        Could winter days
+                    </div>
+                    <div class="postComments">
+                        15 COMMENTS
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="footerItem" id="termItem">Terms and condition</div>
+            <div class="footerItem" id="privacyItem">Privacy</div>
         </div>
     </body>
 </html>

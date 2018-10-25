@@ -1,95 +1,83 @@
-.container {
-    display: table;
-    padding-top: 69px;
-    padding-left: 69px;
-}
-.header {
-    display: table;
+body {
+    margin: 0;
+    padding: 65px 0 0 67px;
+    vertical-align: center;
+    horiz-align: center;
 }
 
-.headerCell {
-    display: table-cell;
+.headerBox {
+    display: inline-block;
+    margin: 0;
     vertical-align: middle;
 }
 
-#minimo {
-    width: 119px;
-    height: 25px;
-    font-size: 30px;
-    letter-spacing: 6px;
+.headerItem {
+    display: inline-block;
+    font-size: 14px;
     line-height: 24px;
-    color: #000000;
-    font-family: "Inconsolata";
-    text-align: left;
+    color: #626262;
+    font-family: "Arial", serif;
+    text-align: center;
 }
 
 #lifestyle {
-    padding-left: 370px;
-    width: 73px;
-    height: 10px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-    font-family: "Arial";
-    text-align: center;
+    padding-left: 318px;
+    padding-right: 114px;
 }
 
 #photodiary {
-    padding-left: 118px;
-    width: 92px;
-    height: 10px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-    font-family: "Arial";
-    text-align: center;
+    padding-right: 96px;
 }
 
 #music {
-    padding-left: 100px;
-    width: 45px;
-    height: 10px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-    font-family: "Arial";
-    text-align: center;
-}
-#travel {
-    padding-left: 93px;
-    width: 54px;
-    height: 10px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-    font-family: "Arial";
-    text-align: center;
+    padding-right: 89px;
 }
 
-
-#image1 {
+.mainImage {
+    padding-top: 40px;
+    padding-left: 2px;
     width: 1062px;
-    height: 509px;
-    background-color: #f1f1f1;
+    height: 541px;
 }
 
-#sidebarContainer {
-    width: 284px;
+.contentBox {
+    display: inline-block;
+    vertical-align: top;
+    padding: 76px 0 0 84px;
+    width: 650px;
+    font-family: Arial, serif;
 }
 
-#sidebarImage {
-    width: 272px;
-    height: 177px;
-    background-color: #b4ac9e;
+#sideBar {
+    padding: 90px 0 0 50px;
+    width: 300px;
+    font-family: "Arial", serif;
 }
 
-#sidebarHeader {
-    width: 278px;
-    height: 18px;
+.contentSubheader {
+    font-size: 14px;
+    color: #b4ad9e;
+}
+
+.contentHeader {
+    padding-top: 0px;
+    font-size: 30px;
+}
+
+.contentText {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sidebarHeader {
+    padding-top: 10px;
+    margin: 0;
     font-size: 24px;
-    line-height: 20px;
-    color: #626262;
-    font-family: "Arial";
+}
+
+#headerSideBar {
+    padding: 17px 0 10px 0;
 }
 
 #sidebarContainer {
@@ -97,34 +85,48 @@
     height: 58px;
     font-size: 12px;
     line-height: 20px;
-    color: #626262;
-    font-family: "Arial";
 }
 
-#infoblocConteiner {
-    padding-top: 96px;
-    padding-left: 80px;
-    width: 700px;
-    height: 150px;
+.postHeader {
+    font-weight: bold;
+    padding: 3px 0 10px 15px;
+    list-style: disc;
 }
 
-#infoblocHeader1 {
+.postComments {
     font-size: 14px;
+    padding: 0 20px 22px 15px;
     color: #b4ad9e;
-    font-family: "Arial";
 }
 
-#infoblocHeader2 {
-    padding-top: 28px;
-    font-size: 30px;
-    color: #626262;
-    font-family: "Arial";
+.bottomImage {
+    width: 661px;
+    height: 497px;
 }
 
-#infoblocContent {
-    padding-top: 35px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-    font-family: "Arial";
+
+.blockFoot {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 300px;
+    padding-top: 40px;
+    height: 40px;
+    width: 78%;
+    background-color: #f0f0f0;
+}
+
+.footerItem {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#termItem {
+    padding-left: 80px;
+}
+
+#privacyItem {
+    padding-left: 20px;
 }
