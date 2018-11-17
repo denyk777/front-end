@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #f7f9fc;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.header {
+    margin: 71px 0 0 225px;
+    vertical-align: middle;
+}
+
+.header_link_box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_link {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+}
+
+#home {
+    margin-left: 323px;
+}
+
+#about {
+    margin-left: 41px;
+}
+
+#archive {
+    margin-left: 40px;
+}
+
+#contact {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.post1 {
+    background-color: #fff;
+    margin: 72px 0 0 225px;
+    width: 950px;
+    height: 600px;
+}
+
+.data {
+    margin: 0 0 0 96px;
+    padding: 54px 0 0 0;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post_header {
+    margin: 15px 0 33px 94px;
+    font-weight: bold;
+    font-size: 41px;
+    width: 760px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.post_text {
+    padding-left: 94px;
+    font-size: 17px;
+    line-height: 30px;
+    width: 765px;
+}
+
+.button {
+    color: #5c6bc0;
+    font-size: 21px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid black;
+}
+
+.hashtag {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    margin-left: 5px;
+    color: #b2b2b2;
+}
+
+.bottom_post {
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 85px;
+    vertical-align: middle;
+}
+
+.the_picture_mountain {
+    margin-top: 50px;
+    margin-left: 225px;
+    width: 950px;
+}
+
+.post2 {
+    background-color: #fff;
+    margin: 0 0 0 225px;
+    width: 950px;
+    height: 870px;
+}
+
+.subscribe {
+    font-size: 25px;
+    font-style: italic;
+    margin: 0 0 0 93px;
+    padding-bottom: 8px;
+    line-height: 38px;
+    color: #7f7f7f;
+}
+
+.hashtag_position_post {
+    margin-left: 370px;
+}
+
+.post3 {
+    background-color: #fff;
+    margin: 50px 0 0 225px;
+    width: 950px;
+    height: 1125px;
+}
+
+.img_statue {
+    float: left;
+    margin: 0 20px 0 85px;
+}
+
+.explanation {
+    margin: 0 0 0 93px;
+    padding: 0 0 10px 30px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 730px;
+    border-left: 4px solid;
+    color: #999999;
+}
+
+.footer {
+    margin: 120px 0 0 225px;
+    width: 950px;
+    height: 530px;
+    background-color: #5c6bc0;
+}
+
+.footer_logo {
+    width: 140px;
+    margin: 69px 0 0 406px;
+}
