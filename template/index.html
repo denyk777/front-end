@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <title>REGISTRATIO</title>
+</head>
+<body>
+<div class="form-registration">
+    <header class="form-registration__header">Давайте начнем!</header>
+    <div class="form-registration__content">
+        <p class="form-registration__name_field for_focus">Имя</p>
+        <input type="text" placeholder="Чендлер" class="form-registration__input_field" tabindex="1">
+        <p class="form-registration__name_field">Фамилия</p>
+        <input type="text" placeholder="Бинг" class="form-registration__input_field" tabindex="2">
+        <p class="form-registration__name_field">Ваш пол</p>
+        <label>
+            <input type="radio" name="status" tabindex="3" class ="form-registration__radio_select"> Жениский
+        </label>
+        <label class="form-registration__radio_select">
+            <input type="radio" name="status" tabindex="4" class ="form-registration__radio_select"> Мужской
+        </label>
+        <p class="form-registration__name_field form-registration__after_sex">Введите электронный адрес</p>
+        <input type="email" placeholder="email@gmail.com" class="form-registration__input_field" tabindex="5">
+        <p class="form-registration__name_field">Придумайте пароль</p>
+        <input type="password" placeholder="Password" class="form-registration__input_field" tabindex="6">
+    </div>
+    <footer class="form-registration__footer">
+        <p class="form-registration__terms_of_use">
+            <label>
+                <input type="checkbox" class="form-registration__custom_checkbox"> Я принимаю условия
+                <span><a href="index.html" class="form-registration__link_style">Пользовательского соглашения</a></span>
+                и даю своё согласие на обработку моих персональных данных
+                на условиях, определенных <span><a href="index.html" class="form-registration__link_style">Политикой конфиденциальности</a></span>.
+            </label>
+        </p>
+        <div type="submit" class="form-registration__sign_in_button">
+            Зарегистрироваться
+        </div>
+    </footer>
+</div>
+</body>
+</html>

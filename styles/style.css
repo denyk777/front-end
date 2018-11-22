@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    color: #262e73;
+}
+
+.form-registration {
+    margin: 30px 0 0 30px;
+    width: 455px;
+    height: 625px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.form-registration__header {
+    margin-top: 51px;
+    text-align: center;
+    font-size: 33px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.form-registration__content {
+    margin: 43px 0 0 33px;
+}
+
+.form-registration__name_field {
+    font-size: 14px;
+    line-height: 0;
+}
+
+.form-registration__name_field:focus {
+    box-shadow: 0 0 1px 1px #4d90f0;
+}
+
+.form-registration__input_field {
+    margin: 0 0 11px 0;
+    width: 350px;
+    height: 37px;
+    font-size: 17px;
+    line-height: 11px;
+    color: #000;
+    padding-left: 20px;
+}
+
+.form-registration__input_field:focus {
+    box-shadow: 0 0 1px 1px #4d90f0;
+}
+
+.form-registration__after_sex {
+    margin-top: 25px;
+}
+
+.form-registration__footer {
+    width: 375px;
+    margin: 0 0 0 30px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #565d69;
+}
+
+.form-registration__custom_checkbox {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin: 0 5px 50px 0;
+}
+
+.form-registration__terms_of_use {
+    margin: 10px 0 0 5px;
+}
+
+.form-registration__sign_in_button {
+    border-radius: 3px;
+    margin: 8px 0 0 2px;
+    padding: 18px 115px 18px 115px;
+    letter-spacing: 0.3px;
+    background-color: #0bc691;
+    color: #fff;
+    font-size: 17px;
+    line-height: 5px;
+}
+
+.form-registration__link_style {
+    text-decoration: none;
+    color: #262e73;
+}
+
+.form-registration__radio_select:focus {
+    color: #262e73;
+    box-shadow: 0 0 1px 1px #4d90f0;
+}
