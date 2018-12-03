@@ -207,6 +207,7 @@ body {
 }
 
 .footer__team_link {
+    display: inline;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -231,7 +232,7 @@ body {
         margin-left: 52%;
         background: url("../images/burger.png") no-repeat;
         width: 37px;
-        height: 27px    ;
+        height: 27px;
         background-size: contain;
     }
 
