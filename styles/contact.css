@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    max-width: 1400px;
+}
+
+.header {
+    margin: 9% 0 0 15%;
+    max-width: 70%;
+}
+
+.header__logo {
+    background: url("../images/PaloAlto.png");
+    width: 157px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__link_box {
+    display: inline-block;
+    width: 40%;
+    font-weight: bold;
+}
+
+.header__link_box-position {
+    margin-left: 40%;
+}
+
+.header__link_item {
+    display: inline;
+    color: #333;
+    text-decoration: none;
+    margin: 0 4%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header__link_item::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #5c6bc0;
+    bottom: -4px;
+    right: -2px;
+    left: calc(100% + 2px);
+    transition: left 0.3s ease-in-out;
+}
+
+.header__link_item:hover:after {
+    left: -2px;
+}
+
+.header__link_item:active {
+    color: #5c6bc0;
+}
+
+.header__link_item:active:after {
+    content: '';
+    height: 0;
+}
+
+.header__search_icon {
+    margin-left: 1%;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background: url("../images/Search.png") no-repeat;
+    vertical-align: middle;
+}
+
+.header__search_icon:hover {
+    background-color: #b2b2b2;
+}
+
+.content {
+    margin: 80px 0 0 15%;
+    max-width: 70%;
+    min-height: 815px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+.content__header {
+    padding: 7% 0 0 10%;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.content__text {
+    margin-left: 10%;
+    padding-bottom: 4%;
+    width: 80%;
+    border-bottom: 2px solid #eee;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.content__form {
+    height: 350px;
+    padding: 3% 0 0 0;
+    margin: 0 0 0 10%;
+}
+
+.content__form-text_in_field {
+    border: 0;
+    background-color: #f7f9fc;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content__form-text_in_textarea {
+    border: 0;
+    background-color: #f7f9fc;
+    padding: 20px 0 0 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content__form-in_line {
+    width: 39.6%;
+    margin: 0 2.9% 3.5% 0;
+    height: 15%;
+}
+
+.content__form-subject_field {
+    width: 85%;
+    height: 15%;
+    margin-bottom: 3%;
+}
+
+.content__form-message_field {
+    width: 85%;
+    height: 37%;
+}
+
+.content__send_message {
+    color: #5c6bc0;
+    position: absolute;
+    margin: 1% 0 0 7%;
+    width: 200px;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #5c6bc0;
+    margin-top: 150px;
+    height: 530px;
+}
+
+.footer__logo {
+    margin: 5% 0 0 45.5%;
+    width: 130px;
+    height: 25px;
+}
+
+.footer__link_box-position {
+    margin: 4% 0 0 23%;
+}
+
+.footer__link_box {
+    display: inline-block;
+    padding: 0 10%;
+    width: 40%;
+    font-weight: bold;
+}
+
+.footer__link_item_color {
+    color: #fff;
+}
+
+.footer__search_icon {
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background: url("../images/SearchWhite.png") no-repeat;
+    vertical-align: middle;
+}
+
+.footer__search_icon:hover {
+    background-color: #b2b2b2;
+}
+
+.footer__text {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    margin: 3% 0 0 23%;
+    width: 55%;
+    padding: 2.5% 0 2.5% 0;
+    color: #9da6d9;
+    border-top: 2px solid #5765b5;
+    border-bottom: 2px solid #5765b5;
+}
+
+.footer__copyright {
+    margin: 2.5% 0 0 32%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #9da6d9;
+}
+
+.footer__team_link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social_links {
+    margin: 2% 0 0 44%;
+}
+
+.footer__social_net_icon {
+    padding-right: 3%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        margin: 15% 0 0 5%;
+        max-width: 90%;
+    }
+
+    .header__search_icon {
+        margin-left: 52%;
+        background: url("../images/burger.png") no-repeat;
+        width: 37px;
+        height: 27px    ;
+        background-size: contain;
+    }
+
+    .header__link_box {
+        display: none;
+    }
+
+
+    .content {
+        margin: 80px 0 0 5%;
+        max-width: 90%;
+        min-height: 870px;
+    }
+
+    .content__header {
+        padding: 13% 0 0 10%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .content__text {
+        color: #333;
+        width: 80%;
+    }
+
+    .content__form-in_line {
+        width: 90%;
+    }
+
+    .content__form {
+        padding: 3% 0 0 0;
+        margin: 0 6% 0 10%;
+    }
+
+
+    .content__send_message {
+        margin: 1% 0 5% 10%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer__logo {
+        margin: 5% 0 0 0;
+    }
+
+    .footer__link_box {
+        display: block;
+        padding: 0 1%;
+        width: 90%;
+    }
+
+    .footer__link_box-position {
+        margin: 4% 0 0 3%;
+    }
+
+    .footer__search_icon {
+        display: none;
+    }
+
+    .footer__text {
+        margin: 3% 9% 0 9%;
+        width: 80%;
+    }
+
+    .footer__copyright {
+        margin: 2.5% 9% 0 9%;
+        width: 80%;
+    }
+
+    .footer__social_links {
+        margin: 2% 0 0 9%;
+    }
+
+    .footer {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
