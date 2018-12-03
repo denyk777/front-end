@@ -239,7 +239,6 @@ body {
         display: none;
     }
 
-
     .content {
         margin: 80px 0 0 5%;
         max-width: 90%;
@@ -310,5 +309,17 @@ body {
     .footer {
         height: auto;
         padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__link_item {
+        display: block;
+    }
+
+    .content {
+        margin: 80px 0 0 5%;
+        max-width: 90%;
+        min-height: 920px;
     }
 }
