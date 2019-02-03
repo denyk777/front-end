@@ -1,0 +1,147 @@
+.footer {
+    margin: 120px 0 0 3%;
+    padding: 0 0 50px 0;
+    width: 84%;
+    height: 530px;
+    background-color: #5c6bc0;
+    text-align: center;
+}
+
+.footer_logo {
+    width: 140px;
+    margin: 69px 0 0 0;
+}
+
+.footer_text {
+    margin: 42px auto 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 70%;
+    font-size: 13px;
+    line-height: 23px;
+    color: #9da6d9;
+    border-top: 2px solid #5765b5;
+    border-bottom: 2px solid #5765b5;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 31px auto 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    color: #9da6d9;
+}
+
+.copyright_link {
+    margin: 0 0 0 10px;
+    display: inline;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social_net {
+    width: 300px;
+    margin: 31px auto 0 auto;
+}
+
+.social_net_icon {
+    margin-left: 20px;
+}
+
+.footer_link_block {
+    margin: 56px 0 0 0;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer_item {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.footer_link_line {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.footer_link_line::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #f4f5fb;
+    bottom: -2px;
+    right: 0;
+    left: 100%;
+    transition: left 0.3s ease-in-out;
+}
+
+.footer_link_line:hover:after {
+    left: 0;
+}
+
+.footer_link_line:active {
+    color: #f4f5fb;
+}
+
+.footer_link_line:active:after {
+    content: '';
+    height: 0;
+}
+
+.f_navigation__search {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20%;
+}
+
+.f_navigation__search:hover {
+    background: #5360ac;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        margin: 70px 5% 0 5%;
+        width: 90%;
+    }
+
+    .f_navigation__search {
+        display: none;
+    }
+
+    .footer_link_block {
+        margin: 56px 0 0 0;
+        padding: 0 5% 0 5%;
+        width: 100%;
+    }
+
+    .footer_text {
+        width: 80%;
+    }
+
+    .copyright {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-bottom: 100%;
+    }
+
+    .footer_item {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .social_net {
+        width: auto
+    }
+}
